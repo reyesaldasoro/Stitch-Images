@@ -2,6 +2,15 @@
 Matlab Routines to stitch four images (Quadrants)
 
 
+<p>
+A longer description of the algorithm including intermediate steps can be found in the book:
+</p>
+<p>
+ <a href="http://onlinelibrary.wiley.com/book/10.1002/9781118657546">
+  Biomedical image analysis recipes in MATLAB: for life scientists and engineers</a>, <br>
+CC Reyes-Aldasoro<br>
+John Wiley & Sons.
+</p>
 
  <div class="content"><h1>User Manual for stitch4Images</h1><!--introduction--><!--/introduction-->
 <h2>Introduction<a name="1"></a></h2>
