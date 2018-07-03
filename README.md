@@ -37,13 +37,13 @@ imagesc(quadrant4)
 </pre>
 
 
-![Screenshot](userManualStitch_01.png)
+![Screenshot](Figures/userManualStitch_01.png)
 
-![Screenshot](userManualStitch_02.png)
+![Screenshot](Figures/userManualStitch_02.png)
 
-![Screenshot](userManualStitch_03.png)
+![Screenshot](Figures/userManualStitch_03.png)
 
-![Screenshot](userManualStitch_04.png)
+![Screenshot](Figures/userManualStitch_04.png)
 
 
 <p>The order in which the images must be presented to the algorithm is the following: 1 : top - left, 2 : top - right, 3 : bottom - left, 4 : bottom - right.</p>
@@ -58,7 +58,7 @@ imagesc(completeImage/255)
 </pre>
 
 
-![Screenshot](userManualStitch_05.png)
+![Screenshot](Figures/userManualStitch_05.png)
 
 <p>The 255 is used as the output is a "double".</p>
 
