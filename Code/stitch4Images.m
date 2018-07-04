@@ -1,5 +1,16 @@
 function  finalRes4 = stitch4Images(Q1,Q2,Q3,Q4)
-
+%function  finalRes4 = stitch4Images(Q1,Q2,Q3,Q4)
+%---------------------------------------------------------------------------------
+% A function to stitch automatically four quadrants into a single image. The
+% quadrants are located as follows 1-NW, 2-NE, 3-SE, 4-SW. The top two quadrants are
+% stitched first, then the bottom two are stitched, and the resulting top and bottom
+% are stitched together.
+%  A longer description of the algorithm including intermediate steps can be found in the book:
+% 
+% Biomedical image analysis recipes in MATLAB: for life scientists and engineers,
+% CC Reyes-Aldasoro
+% John Wiley & Sons. 
+%---------------------------------------------------------------------------------
 
 if nargin ==0
     Q1=double(imread('Q1.bmp'));Q2=double(imread('Q2.bmp'));Q3=double(imread('Q3.bmp'));Q4=double(imread('Q4.bmp'));
